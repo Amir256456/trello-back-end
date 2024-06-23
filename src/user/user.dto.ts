@@ -23,7 +23,7 @@ export class PomodoroSettingsDto {
 	@IsNumber()
 	@Min(1)
 	@Max(10)
-	intervalsCount?: number
+	intervalCount?: number
 }
 
 export class UserDto extends PomodoroSettingsDto {
